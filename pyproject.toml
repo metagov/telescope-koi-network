@@ -1,0 +1,17 @@
+[project]
+name = "telescope-network"
+version = "0.1.0"
+description = "Deployment for Telescope KOI network"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "koi-net==1.3.0b7",
+    "koi-net-coordinator-node",
+    "koi-net-obsidian-manager-node",
+    "koi-net-slack-telescope-node",
+]
+
+[tool.uv.sources]
+koi-net-coordinator-node = { git = "https://github.com/BlockScience/koi-net-coordinator-node" }
+koi-net-obsidian-manager-node = { git = "https://github.com/BlockScience/koi-net-obsidian-manager-node" }
+koi-net-slack-telescope-node = { git = "https://github.com/metagov/slack-telescope", rev = "dev" }

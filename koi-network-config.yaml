@@ -1,0 +1,5 @@
+first_contact: coordinator
+nodes:
+  coordinator: koi_net_coordinator_node
+  obsidian_manager: koi_net_obsidian_manager_node
+  slack_telescope: koi_net_slack_telescope_node
