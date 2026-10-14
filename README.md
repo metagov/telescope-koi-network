@@ -30,10 +30,10 @@ Rename `.env.example` to `.env`, and set the `PRIV_KEY_PASSWORD`. This is used t
 6. Copy down the `Bot token` and `App token` from `Your app credentials`.
 7. Click `Go to App Settings`, if you see a pop up that permission scopes have changed, follow the instructions and `reinstall your app`.
 8. Fill in the the environment variables for the Slack bot in the `.env` file:
-    1. `SLACK_BOT_TOKEN` - previously copied `Bot token`
+    1. `SLACK_BOT_TOKEN` - previously copied `Bot token` (or `Bot User OAuth Token` under `Install App`)
     2. `SLACK_USER_TOKEN` - navigate to `Install App`, and copy the `User OAuth Token`
     3. `SLACK_SIGNING_SECRET` - navigate to `Basic information`, and copy the `Signing Secret`
-    4. `SLACK_APP_TOKEN` - previously copied `App token`
+    4. `SLACK_APP_TOKEN` - previously copied `App token` (or `Default Telescope App Token` under `Basic Information`)
 
 
 9. Launch the KOI shell from the terminal with `koi-sh`.
