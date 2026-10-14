@@ -91,4 +91,4 @@ Messages in the observatory will show their current status, which can be one of:
 - Rejected ❌
 - Retracted 🚫
 
-Only messages which are approved, or approved anonymously will end up in the broadcast channel. Although anonymously opting-in will remove the authors name with a random pseudonym in the outgoing dataset, they will still be referenced by name within the broadcast channel in Slack, as it links back to the original message, and it is trivial to search for the original author within a workspace. 
+Only messages which are approved, or approved anonymously will end up in the broadcast channel. Although anonymously opting-in will replace the authors name with a random pseudonym in the outgoing dataset, they will still be referenced by name within the broadcast channel in Slack, as it links back to the original message, and it is trivial to search for the original author within a workspace. 
