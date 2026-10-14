@@ -1,1 +1,6 @@
 .env
+.rid_cache
+*.ndjson
+persistent
+config.yaml
+priv_key.pem

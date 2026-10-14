@@ -1,0 +1,17 @@
+:80 {
+	handle_path /coordinator/* {
+		reverse_proxy 127.0.0.1:8080
+	}
+
+	handle_path /obsidian-manager/* {
+		reverse_proxy 127.0.0.1:8000
+	}
+
+	handle_path /slack-telescope/* {
+		reverse_proxy 127.0.0.1:8001
+	}
+
+	handle {
+		respond "Hello, world!"
+	}
+}
