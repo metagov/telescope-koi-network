@@ -544,7 +544,7 @@ wheels = [
 
 [[package]]
 name = "koi-net-slack-telescope-node"
-version = "0.1.0"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -554,9 +554,9 @@ dependencies = [
     { name = "slack-bolt" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4f/c3/f04819872b85013585a25f88dd1548285ca362f3808d1872526d8fe7a09a/koi_net_slack_telescope_node-0.1.0.tar.gz", hash = "sha256:b09ebfbf380aed08cb4e693b40faf7fb3d2be82cf0bb58d74411ed84e11d6a7d", size = 18566, upload-time = "2026-04-01T19:21:42.046Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1c/73/2fb754a1e2eed5d8f6c3ad592e875ce5b146e3a2127133f11bab2ff8a292/koi_net_slack_telescope_node-0.2.0.tar.gz", hash = "sha256:2a2c16a161a9776730ea4efc1449cc2595f2cc0f5113102dd7a08b8cb0d118d6", size = 20322, upload-time = "2026-08-17T16:30:17.16Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d9/0f/f7c7dbf48bf6b7eb8b7571fae713055e4316690b6b9538bc7076a5742a85/koi_net_slack_telescope_node-0.1.0-py3-none-any.whl", hash = "sha256:08b6e54f2b6a35c236e65bd9844d5f26cbe8f2eed14f00e50f177ae4c8276aff", size = 26753, upload-time = "2026-04-01T19:21:40.871Z" },
+    { url = "https://files.pythonhosted.org/packages/15/a5/6bd2445f6b1c68a26f79ff86cedac212fbcc5d82a194d4c657558bc34672/koi_net_slack_telescope_node-0.2.0-py3-none-any.whl", hash = "sha256:1a06da1dd522807138785d162aec39c43f323f829c1b2baf32340b2fcf08b90c", size = 28434, upload-time = "2026-08-17T16:30:16.099Z" },
 ]
 
 [[package]]
@@ -1004,7 +1004,7 @@ dependencies = [
 requires-dist = [
     { name = "koi-net-coordinator-node", specifier = ">=0.1.0" },
     { name = "koi-net-obsidian-manager-node", specifier = ">=0.1.0" },
-    { name = "koi-net-slack-telescope-node", specifier = ">=0.1.0" },
+    { name = "koi-net-slack-telescope-node", specifier = ">=0.2.0" },
 ]
 
 [[package]]
