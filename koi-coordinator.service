@@ -1,0 +1,15 @@
+[Unit]
+Description=KOI-net coordinator node
+StartLimitIntervalSec=300
+StartLimitBurst=10
+
+[Service]
+Type=simple
+WorkingDirectory=%h/telescope-koi-network
+ExecStart=%h/telescope-koi-network/.venv/bin/python -m koi_net_coordinator_node coordinator
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
